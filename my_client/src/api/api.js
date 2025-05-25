@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const uploadPDF = async (formData) => {
   try {
-    const response = await axios.post('https://hhh-v4sz.onrender.com/', formData);
+    const response = await axios.post('https://hhh-v4sz.onrender.com/upload', formData);
     return response.data;
   } catch (err) {
     const errorData = err.response?.data;
