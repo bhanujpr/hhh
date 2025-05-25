@@ -1,0 +1,30 @@
+# Root-level .gitignore
+
+# Node modules
+**/node_modules/
+
+# Logs
+**/logs/
+**/*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Environment files
+**/.env
+
+# Build outputs
+**/dist/
+**/build/
+
+# IDE config
+.vscode/
+.idea/
+
+# Temporary uploads (just in case)
+**/uploads/
+
+# Optional: ignore lock files (choose one)
+# yarn.lock
+# package-lock.json
